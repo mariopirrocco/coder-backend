@@ -46,11 +46,7 @@ routerCarts.get('/:cid', async (req, res) => {
         }
       })
     }
-    // console.log(loadedItems)
     
-    
-    
-    // console.log(ids)
     res.send( loadedItems )
 
   } catch (error) {
