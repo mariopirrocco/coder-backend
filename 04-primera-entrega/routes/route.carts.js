@@ -21,7 +21,6 @@ routerCarts.post('/', async (req, res) => {
 
 routerCarts.post('/:cid/product/:pid', async (req, res) => {
   try {
-    
     res.send( await Carts.addToCart(req.params) )
   } catch (error) {
     throw new Error(`There was an error adding your item: ${error}`)
@@ -34,8 +33,6 @@ routerCarts.get('/:cid', async (req, res) => {
       
     const cart = await Carts.getCart(req.params.cid)
     const ids = await cart.products.map(prod => prod)
-    
-    // console.log(inStore)
 
     const loadedItems = []
     
