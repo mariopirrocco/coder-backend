@@ -1,8 +1,14 @@
 const { Router } = require('express')
 const routerCarts = Router()
 
-const prodManager = require('../ProductManager.js')
-const Carts = new prodManager('./db/carts.json')
+
+
+const cartManager = require('../utils/CartManager.js')
+const Carts = new cartManager('./db/carts.json')
+
+routerCarts.get('/', (req, res) => {
+  res.send('loading cart')
+})
 
 routerCarts.post('/', async (req, res) => {  
   try {
@@ -14,6 +20,7 @@ routerCarts.post('/', async (req, res) => {
 
 routerCarts.post('/:cid/product/:pid', async (req, res) => {
   try {
+    
     res.send( await Carts.addToCart(req.params) )
   } catch (error) {
     throw new Error(`There was an error adding your item: ${error}`)
@@ -22,7 +29,7 @@ routerCarts.post('/:cid/product/:pid', async (req, res) => {
 
 routerCarts.get('/:cid', async (req, res) => {
   try {
-    
+    res.send( await Carts.getCart(req.params.cid) )
   } catch (error) {
     throw new Error(`There was an error getting your items: ${error}`)
   }  

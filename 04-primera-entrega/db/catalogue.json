@@ -48,15 +48,5 @@
 		"stock": 20,
 		"status": true,
 		"id": 5
-	},
-	{
-		"title": "Twitcher",
-		"description": "Pinza resistente a la electricidad hasta 440v",
-		"price": 240,
-		"thumbnail": "no image",
-		"code": "433eegh",
-		"stock": 20,
-		"status": true,
-		"id": 6
 	}
 ]
