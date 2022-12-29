@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Screwdriver",
+		"description": "Flat style",
+		"price": 60,
+		"thumbnail": "no image",
+		"code": "23224",
+		"stock": 3,
+		"status": true,
+		"id": 1
+	},
+	{
+		"title": "Wrench",
+		"description": "6\" adjustable",
+		"price": 160,
+		"thumbnail": "no image",
+		"code": "23228",
+		"stock": 3,
+		"status": true,
+		"id": 2
+	},
+	{
+		"title": "Bycicle seat",
+		"description": "Mountain Bike style",
+		"price": 265,
+		"thumbnail": "no image",
+		"code": "23234",
+		"stock": 15,
+		"status": true,
+		"id": 3
+	},
+	{
+		"title": "Screwdriver",
+		"description": "Phillips style",
+		"price": 30,
+		"thumbnail": "no image",
+		"code": "23276",
+		"stock": 15,
+		"status": true,
+		"id": 4
+	}
+]
