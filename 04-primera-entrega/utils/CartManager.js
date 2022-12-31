@@ -39,6 +39,7 @@ class CartManager {
         const updatedCarts = await fs.promises.writeFile(this.path, JSON.stringify(carts))
         return carts
       }
+      
     } catch(error) {      
       return `There was an error (${error}) creating your cart`
     }
@@ -77,8 +78,6 @@ class CartManager {
         return 'There is no cart with the specified id'
       }
       
-
-
     } catch (error) {
       return 'There is no cart with the specified id'
     }
