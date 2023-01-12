@@ -1,0 +1,29 @@
+<div>
+  <h1>Catalogue</h1>
+</div>
+<div>
+  <table id="products-list">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Price</td>
+        <td>Thumbnail</td>
+        <td>Code</td>
+        <td>Stock</td>
+      </tr>
+    </thead>
+    <tbody id="products">
+      {{#each catalogue}}
+        <tr>
+          <td>${this.title}</td>
+          <td>${this.description}</td>
+          <td>${this.price}</td>
+          <td>${this.thumbnail}</td>
+          <td>${this.code}</td>
+          <td>${this.stock}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>

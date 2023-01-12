@@ -1,0 +1,80 @@
+[
+	{
+		"title": "Screwdriver",
+		"description": "Flat style",
+		"price": 60,
+		"thumbnail": [
+			"no image",
+			"no image"
+		],
+		"code": "23224",
+		"stock": 3,
+		"status": true,
+		"id": 1
+	},
+	{
+		"title": "Wrench",
+		"description": "6\" adjustable",
+		"price": 160,
+		"thumbnail": [
+			"no image",
+			"no image"
+		],
+		"code": "23228",
+		"stock": 3,
+		"status": true,
+		"id": 2
+	},
+	{
+		"title": "Bycicle seat",
+		"description": "Mountain Bike style",
+		"price": 265,
+		"thumbnail": [
+			"no image",
+			"no image"
+		],
+		"code": "23234",
+		"stock": 15,
+		"status": true,
+		"id": 3
+	},
+	{
+		"title": "Screwdriver Phillips",
+		"description": "Phillips style",
+		"price": 30,
+		"thumbnail": [
+			"no image",
+			"no image"
+		],
+		"code": "23276",
+		"stock": 15,
+		"status": true,
+		"id": 4
+	},
+	{
+		"title": "Pinza",
+		"description": "Pinza resistente a la electricidad hasta 440v",
+		"price": 240,
+		"thumbnail": [
+			"no image",
+			"no image"
+		],
+		"code": "433eee",
+		"stock": 20,
+		"status": true,
+		"id": 5
+	},
+	{
+		"title": "Hammer",
+		"description": "450g",
+		"price": 90,
+		"thumbnail": [
+			"no image",
+			"no image"
+		],
+		"code": "ui889999",
+		"stock": 3,
+		"status": true,
+		"id": 6
+	}
+]

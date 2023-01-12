@@ -1,0 +1,37 @@
+<div>
+  <h1>Catalogue in real time with websockets</h1>
+</div>
+<div>
+  <form action="" method="post">
+    <input type="text" name="title" id="title" placeholder="title" required><br>
+    <input type="text" name="description" id="description" placeholder="description" required><br>
+    <input type="number" name="price" id="price" placeholder="price" required><br>
+    <input type="text" name="thumbnail" id="thumbnail" placeholder="thumbnail" required><br>
+    <input type="text" name="code" id="code" placeholder="code" required><br>
+    <input type="number" name="stock" id="stock" placeholder="stock" required><br>
+    <input type="text" name="status" id="status" placeholder="status" required><br>
+
+    <input type="submit" name="submit" id="submit" value="Submit">
+  </form>
+</div>
+<div>
+  <h2>Products</h2>
+  <table id="products-list">
+    <thead>
+      <tr>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Price</td>
+        <td>Thumbnail</td>
+        <td>Code</td>
+        <td>Stock</td>
+      </tr>
+    </thead>
+    <tbody id="products">
+      {{!-- Content dynamically loaded --}}
+    </tbody>
+  </table>
+</div>
+
+
+
